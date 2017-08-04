@@ -1,0 +1,8 @@
+md git
+cd git
+git init
+copy nul Readme.md
+git add readme.md
+git commit -m "first commit"
+git remote add origin https://github.com/kebedet/GitHubRepoAssignment.git
+git push -u origin master
